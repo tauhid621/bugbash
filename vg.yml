@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4123y
 
 variables:
-- group: Sawtooth
+- group: remember
 
 steps:
 - task: NuGetToolInstaller@0

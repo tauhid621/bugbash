@@ -13,9 +13,3 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
-- task: AzureResourceGroupDeployment@2
-  displayName: 'Display Name'
-  inputs:
-    azureSubscription: remember
-    action: Start
-    resourceGroupName: 'a'
